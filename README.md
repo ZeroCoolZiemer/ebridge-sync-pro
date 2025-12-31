@@ -15,13 +15,15 @@ The streamlined, permissionless bridge between your iPhone and Windows.
 ---
 
 ## ✨ Key Features
+- 📸 **Full Metadata Preservation**: Retain EXIF data to keep your photo library professional and organized.
+- 🎨 **Color Fidelity**: Preserve Display P3 ICC profiles so your images look just as vibrant as they did on your iPhone.
 - 🔄 **Smart Sync**: Detects and transfers only new photos. Never duplicates files or re-syncs existing content.  
 - ⏯️ **Total Sync Control**: Instantly pause and resume transfers to stay in control of your session.  
 - 🚀 **Streamed Transfers**: Safely transfers large 4K photos and videos without crashing.
 - 🎚️ **Intelligent Filtering**: Option to skip Live Photo video clips (`.MOV`) to keep your library clean and save storage.  
 - 🖼️ **Auto-Conversion**: Option to convert HEIC to high-quality JPG for immediate use in tools like **DaVinci Resolve**.  
-- 📂 **Smart Organization**: Files are automatically sorted by `Year - Month` for a clean library.  
-- 🔒 **Privacy First**: 100% local. No accounts, no cloud, and no data leaves your USB cable.
+- 📂 **Smart Organization**: Files are automatically sorted by `Year - Month` for a clean library.
+- 🔒 **Privacy First**: 100% local processing with Selective GPS Stripping. No cloud, no accounts, and your location data stays private.
 
 ---
 
