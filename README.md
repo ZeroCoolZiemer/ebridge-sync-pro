@@ -10,37 +10,54 @@ The streamlined, permissionless bridge between your iPhone and Windows.
 ---
 
 ## 📖 Overview
-**eBridge Sync Pro** is a lightweight utility designed to solve the "iPhone-to-Windows" headaches. It automates the backup process and handles HEIC-to-JPG conversion locally on your machine—no cloud required.
+**eBridge Sync Pro** is a lightweight Windows utility designed to solve common *iPhone-to-Windows* sync headaches.  
+It performs fast, local backups of photos and videos directly from your iPhone—no cloud services, no accounts, and no subscriptions.
+
+All transfers occur locally on your machine using Apple’s official device drivers.
 
 ---
 
 ## ✨ Key Features
-- 📸 **Full Metadata Preservation**: Retain EXIF data to keep your photo library professional and organized.
+- 📸 **Full Metadata Preservation**: Retain original timestamps and EXIF data for accurate library organization.
 - 🎨 **Color Fidelity**: Preserve Display P3 ICC profiles so your images look just as vibrant as they did on your iPhone.
-- 🔄 **Smart Sync**: Detects and transfers only new photos. Never duplicates files or re-syncs existing content.  
-- ⏯️ **Total Sync Control**: Instantly pause and resume transfers to stay in control of your session.  
-- 🚀 **Streamed Transfers**: Safely transfers large 4K photos and videos without crashing.
-- 🎚️ **Intelligent Filtering**: Option to skip Live Photo video clips (`.MOV`) to keep your library clean and save storage.  
-- 🖼️ **Auto-Conversion**: Option to convert HEIC to high-quality JPG for immediate use in tools like **DaVinci Resolve**.  
-- 📂 **Smart Organization**: Files are automatically sorted by `Year - Month` for a clean library.
-- 🔒 **Privacy First**: 100% local processing with Selective GPS Stripping. No cloud, no accounts, and your location data stays private.
+- 🔄 **Smart Sync**: Detects and transfers only new files. Never duplicates files or re-syncs existing content.  
+- 🚀 **Streamed Transfers**: Safely transfers large photos and videos without crashing or exhausting memory.
+- 📂 **Smart Organization**: Files are automatically sorted by `Year - Month` based on capture date.
+- 🔒 **Privacy First**: 100% local processing. No cloud, no accounts, and no background services.
 
 ---
 
 ## 🛠️ Getting Started
 
 ### Prerequisites
-To ensure a stable connection between Windows and iOS, you must have the **Apple Mobile Device Support** drivers installed. These are included with:
-- [iTunes for Windows](https://apps.microsoft.com/detail/9pb2mz1zmb1s)
+To ensure a stable USB connection between Windows and iOS, **Apple Mobile Device Support** must be installed.  
+These drivers are included with any of the following:
+
+- [Apple Devices App (Microsoft Store)](https://apps.microsoft.com/detail/9np83lwlpz9k)
+- [iTunes for Windows (Microsoft Store)](https://apps.microsoft.com/detail/9pb2mz1zmb1s)
 - [iTunes for Windows (Direct Download)](https://www.apple.com/itunes/download/win64)
-- Or the [Apple Devices App](https://apps.microsoft.com/detail/9np83lwlpz9k)
+
+> These drivers are required **only for device detection and communication**.
+
+---
 
 ### Installation & Use
-1. Download the latest `ebridge_sync.exe` from the **[Releases](../../releases)** section.  
-2. Connect your iPhone via USB.  
-3. Run the executable.  
+1. Download the latest `ebridge_sync.exe` from the **Releases** section  
+2. Connect your iPhone via USB  
+3. Run the executable  
+4. Click **Start Sync**
 
-> **Note:** The app is permissionless — it does not request accounts or device approvals beyond the standard Apple USB driver.
+> **Note:** The application does not request Apple ID credentials or cloud access.
+
+---
+
+## 🧾 Changelog
+
+### v1.2.1
+- Fixed regressions affecting media date handling
+- Restored original folder organization behavior
+- Corrected sync accounting for verified files
+- General stability improvements
 
 ---
 
@@ -53,4 +70,5 @@ If this tool saved you time or improved your workflow, consider supporting its c
 
 ---
 
-*Disclaimer: This project is not affiliated with, endorsed by, or supported by Apple Inc. "iPhone" and "iTunes" are trademarks of Apple Inc.*
+*Disclaimer: This project is not affiliated with, endorsed by, or supported by Apple Inc.  
+“iPhone”, “iTunes”, and “Apple Devices” are trademarks of Apple Inc.*
